@@ -1,46 +1,84 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Acharya Vipul Dhyani - Vaidik Karmakand & Jyotish</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Acharya Vipul Dhyani | Pauri Garhwal</title>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-body{font-family:sans-serif; margin:0; background:#fffbf0; color:#333; text-align:center;}
-.header{background:#8B0000; color:gold; padding:40px 20px;}
-.header h1{margin:0; font-size:36px;}
-.btn{background:#25D366; color:white; padding:15px 30px; text-decoration:none; border-radius:30px; font-weight:bold; display:inline-block; margin-top:20px;}
-.card{background:white; margin:20px; padding:20px; border-radius:15px; box-shadow:0 2px 10px #ddd;}
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth} body{font-family:'Poppins',sans-serif;background:#FFFBEB;color:#3d2b1f}
+h1,h2,h3{font-family:'Tiro Devanagari Hindi',serif}
+/* HEADER */
+.header{position:sticky;top:0;z-index:999;background:rgba(43,10,10,.95);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-bottom:2px solid #FFD700}
+.logo{color:#FFD700;font-size:20px;font-weight:700;text-decoration:none}
+.menu a{color:#ffe9b0;text-decoration:none;margin-left:16px;font-size:14px;font-weight:600} .menu a:hover{color:#FFD700}
+.hero{background:radial-gradient(circle at top,#a11d1d,#3d0606);color:#FFD700;text-align:center;padding:70px 20px 60px}
+.hero img{width:130px;height:130px;border-radius:50%;border:4px solid #FFD700;background:#fff;object-fit:cover}
+.btn{display:inline-flex;align-items:center;gap:8px;margin:8px 5px;padding:13px 22px;border-radius:50px;text-decoration:none;font-weight:700;color:#fff;box-shadow:0 6px 15px rgba(0,0,0,.3)}
+.box{max-width:920px;margin:-30px auto 20px;background:#fff;border-radius:20px;padding:28px 20px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.15);border:2px solid #ffdf8a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;max-width:920px;margin:20px auto;padding:0 15px}
+.card{background:#fff;border-radius:18px;padding:24px;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,.1);border-top:5px solid #8B0000;transition:.3s}
+.card i{font-size:32px;color:#8B0000;margin-bottom:10px;display:block} .card:hover{transform:translateY(-6px)}
+.mantra{background:#2b0a0a;color:#FFD700;text-align:center;padding:28px 20px;font-size:21px;border-top:3px solid #FFD700;border-bottom:3px solid #FFD700}
+.footer{background:#1a0404;color:#ffdd99;text-align:center;padding:35px 15px}
 </style>
 </head>
 <body>
+
 <div class="header">
-<h1>🔱 आचार्य विपुल ध्यानी</h1>
-<p>वैदिक कर्मकाण्ड एवं ज्योतिषाचार्य<br>पौड़ी गढ़वाल, उत्तराखण्ड</p>
-<a class="btn" href="https://wa.me/918449943745">📱 WhatsApp पर संपर्क करें</a>
+<a href="#" class="logo"><i class="fa-solid fa-om"></i> आचार्य विपुल</a>
+<div class="menu">
+<a href="#seva"><i class="fa-solid fa-bell"></i> सेवाएं</a>
+<a href="#katha"><i class="fa-solid fa-book-open"></i> कथा</a>
+<a href="#kundli"><i class="fa-solid fa-star-and-crescent"></i> कुंडली</a>
+<a href="#sampark"><i class="fa-solid fa-phone"></i> संपर्क</a>
+</div>
 </div>
 
-<div class="card">
-<h2>🙏 नमो नमः</h2>
-<p>मैं आचार्य विपुल ध्यानी, शास्त्रोक्त विधि से पूजा, संस्कार एवं ज्योतिष परामर्श देता हूँ।</p>
-<p><b>मूल - पौड़ी गढ़वाल | वर्तमान - देहरादून</b></p>
+<div class="hero">
+<img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Acharya Ji">
+<h1 style="margin-top:15px">आचार्य विपुल ध्यानी</h1>
+<p>वैदिक कर्मकाण्ड • ज्योतिषाचार्य • कथावाचक<br>मूल: पौड़ी गढ़वाल</p>
+<div style="margin-top:22px">
+<a class="btn" style="background:linear-gradient(#25D366,#128C7E)" href="https://wa.me/918449943745"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+<a class="btn" style="background:linear-gradient(#1877F2,#0b5fcc)" href="https://www.facebook.com/share/1J7c38AWdJ/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+<a class="btn" style="background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)" href="https://www.instagram.com/01vipul_dhyani" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+</div>
 </div>
 
-<div class="card">
-<h3>🔱 पूजा एवं अनुष्ठान</h3>
-<p>रुद्राभिषेक, महामृत्युंजय, नवग्रह शांति</p>
-<h3>🏠 गृह एवं संस्कार</h3>
-<p>गृह प्रवेश, नामकरण, मुंडन, श्राद्ध</p>
-<h3>💍 विवाह संस्कार</h3>
-<p>वैदिक विवाह पूजन</p>
-<h3>📿 कथा</h3>
-<p>सत्यनारायण कथा</p>
-<h3>🔮 ज्योतिष</h3>
-<p>जन्म कुंडली, परामर्श</p>
+<div class="box">
+<h2 style="color:#8B0000"><i class="fa-solid fa-hands-praying"></i> नमो नारायण</h2>
+<p style="margin-top:10px;line-height:1.8">शास्त्रसम्मत, शुद्ध उच्चारण के साथ समस्त वैदिक कार्य।<br><b><i class="fa-solid fa-award"></i> 20+ वर्ष अनुभव | <i class="fa-solid fa-check"></i> सात्विक विधि</b></p>
 </div>
 
-<div class="card" style="background:#8B0000; color:white;">
-<h3>संपर्क करें</h3>
-<p>📍 पौड़ी गढ़वाल, उत्तराखण्ड<br>📱 8449943745<br><br>पूजा, कथा, संस्कार के लिए WhatsApp करें</p>
+<div class="mantra" id="katha">
+ॐ सर्वमंगल मांगल्ये शिवे सर्वार्थ साधिके।<br>शरण्ये त्र्यंबके गौरी नारायणि नमोऽस्तुते।।<br><span style="font-size:14px;color:#ffdd99;display:block;margin-top:8px">- माँ दुर्गा का सिद्ध मंत्र -</span>
+</div>
+
+<h2 style="text-align:center;margin:30px 0 10px;color:#8B0000" id="seva"><i class="fa-solid fa-fire"></i> हमारी प्रमुख सेवाएं</h2>
+<div class="grid">
+<div class="card"><i class="fa-solid fa-book-bible"></i><h3>श्रीमद् भागवत कथा</h3><p>7 दिवसीय दिव्य कथा</p></div>
+<div class="card"><i class="fa-solid fa-dove"></i><h3>गरुड़ पुराण कथा</h3><p>पितृ शांति एवं मोक्ष हेतु</p></div>
+<div class="card"><i class="fa-solid fa-ring"></i><h3>विवाह संस्कार</h3><p>शुभ लग्न में वैदिक विवाह</p></div>
+<div class="card"><i class="fa-solid fa-baby"></i><h3>चूड़ाकर्म / मुंडन</h3><p>शुभ मुंडन संस्कार</p></div>
+<div class="card" id="kundli"><i class="fa-solid fa-scroll"></i><h3>कुण्डली निर्माण</h3><p>सटीक जन्म कुंडली</p></div>
+<div class="card"><i class="fa-solid fa-heart"></i><h3>कुण्डली मिलान</h3><p>गुण मिलान, मांगलिक दोष</p></div>
+<div class="card"><i class="fa-solid fa-house-chimney"></i><h3>गृह प्रवेश</h3><p>वास्तु शांति सहित</p></div>
+<div class="card"><i class="fa-solid fa-om"></i><h3>महा रुद्राभिषेक</h3><p>शिव कृपा हेतु विशेष</p></div>
+</div>
+
+<div class="box" id="sampark" style="border-color:#8B0000">
+<h2 style="color:#8B0000"><i class="fa-solid fa-address-book"></i> संपर्क करें</h2>
+<p><i class="fa-solid fa-location-dot"></i> पौड़ी गढ़वाल, उत्तराखंड<br><i class="fa-solid fa-phone"></i> 8449943745</p><br>
+<a class="btn" style="background:#8B0000" href="tel:+918449943745"><i class="fa-solid fa-phone-volume"></i> कॉल करें</a>
+<a class="btn" style="background:linear-gradient(#25D366,#128C7E)" href="https://wa.me/918449943745"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+</div>
+
+<div class="footer">
+<h3><i class="fa-solid fa-om"></i> आचार्य विपुल ध्यानी</h3>
+<p>Pauri Garhwal | All India Service</p>
+<p style="margin-top:12px"><a href="https://www.facebook.com/share/1J7c38AWdJ/" style="color:#FFD700;margin:0 10px"><i class="fab fa-facebook fa-lg"></i></a> <a href="https://www.instagram.com/01vipul_dhyani" style="color:#FFD700;margin:0 10px"><i class="fab fa-instagram fa-lg"></i></a></p>
+<p style="margin-top:15px;font-size:12px;opacity:.6">© 2026 Acharya Vipul Dhyani | जय बद्री विशाल</p>
 </div>
 </body>
 </html>
